@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.NamedPipeSink", "NamedPipeSink\Serilog.Sinks.NamedPipeSink.csproj", "{8E02F25A-D8D3-410D-B98E-4BE0EF5A4907}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{505F57C1-8E40-4C63-BD21-EED94AD5597C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipeClient", "PipeClient\PipeClient.csproj", "{BD34314C-8FA5-46C5-8D68-35D87CAF0EEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E02F25A-D8D3-410D-B98E-4BE0EF5A4907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E02F25A-D8D3-410D-B98E-4BE0EF5A4907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E02F25A-D8D3-410D-B98E-4BE0EF5A4907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E02F25A-D8D3-410D-B98E-4BE0EF5A4907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505F57C1-8E40-4C63-BD21-EED94AD5597C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505F57C1-8E40-4C63-BD21-EED94AD5597C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505F57C1-8E40-4C63-BD21-EED94AD5597C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505F57C1-8E40-4C63-BD21-EED94AD5597C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD34314C-8FA5-46C5-8D68-35D87CAF0EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD34314C-8FA5-46C5-8D68-35D87CAF0EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD34314C-8FA5-46C5-8D68-35D87CAF0EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD34314C-8FA5-46C5-8D68-35D87CAF0EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D0C5D21-E072-4D4A-A907-BA65F96E1FB4}
+	EndGlobalSection
+EndGlobal
